@@ -1,0 +1,8 @@
+Tag "s
+
+center: centralizar
+br:pular linha 
+i/b/u alterações no texto como negrito
+fonte tamanho h1 ate h6  
+            nome  
+fonte color asc

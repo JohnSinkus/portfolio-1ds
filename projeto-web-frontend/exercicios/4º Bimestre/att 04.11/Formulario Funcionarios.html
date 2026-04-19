@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet"href="style.css">
+  <title>Cadastro de Funcionário</title>
+</head>
+<body>
+
+  <h1>Cadastro de Funcionário</h1>
+
+  <form id="cadastroForm">
+    <table>
+      <tr>
+        <td>Matrícula:</td>
+        <td><input type="number" name="matricula"></td>
+        <td>Nome:</td>
+        <td><input type="text" name="nome"></td>
+      </tr>
+      <tr>
+        <td>Data Nasc:</td>
+        <td><input type="date" name="data_nasc"></td>
+        <td>Nacionalidade:</td>
+        <td><input type="text" name="nacionalidade"></td>
+        <td>Sexo:</td>
+        <td><input type="text" name="sexo"></td>
+      </tr>
+      <tr>
+        <td>Est. Civil:</td>
+        <td><input type="text" name="est_civil"></td>
+        <td>RG:</td>
+        <td><input type="number" name="rg"></td>
+        <td>CIC:</td>
+        <td><input type="number" name="cic"></td>
+      </tr>
+      <tr>
+        <td>Endereço:</td>
+        <td colspan="3"><input type="text" name="endereco"></td>
+        <td>Telef:</td>
+        <td><input type="number" name="telefone"></td>
+      </tr>
+      <tr>
+        <td>Data Admissão:</td>
+        <td><input type="date" name="data_admissao"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr><th colspan="6">Cargos Ocupados</th></tr>
+      <tr>
+        <td>Cargo:</td>
+        <td><input type="text" name="cargo1"></td>
+        <td>Dt Início:</td>
+        <td><input type="date" name="inicio1"></td>
+        <td>Dt Fim:</td>
+        <td><input type="date" name="fim1"></td>
+      </tr>
+      <tr>
+        <td>Cargo:</td>
+        <td><input type="text" name="cargo2"></td>
+        <td>Dt Início:</td>
+        <td><input type="date" name="inicio2"></td>
+        <td>Dt Fim:</td>
+        <td><input type="date" name="fim2"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr><th colspan="6">Departamentos de Lotação</th></tr>
+      <tr>
+        <td>Depto:</td>
+        <td><input type="text" name="depto1"></td>
+        <td>Dt Início:</td>
+        <td><input type="date" name="depto_inicio1"></td>
+        <td>Dt Fim:</td>
+        <td><input type="date" name="depto_fim1"></td>
+      </tr>
+      <tr>
+        <td>Depto:</td>
+        <td><input type="text" name="depto2"></td>
+        <td>Dt Início:</td>
+        <td><input type="date" name="depto_inicio2"></td>
+        <td>Dt Fim:</td>
+        <td><input type="date" name="depto_fim2"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr><th colspan="4">Dependentes</th></tr>
+      <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="dep_nome1"></td>
+        <td>Data Nasc:</td>
+        <td><input type="date" name="dep_nasc1"></td>
+      </tr>
+      <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="dep_nome2"></td>
+        <td>Data Nasc:</td>
+        <td><input type="date" name="dep_nasc2"></td>
+      </tr>
+    </table>
+
+    <button type="button" onclick="enviarFormulario()">Enviar</button>
+  </form>
+
+  <script>
+    function enviarFormulario() {
+      alert("Formulário enviado com sucesso!");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+ele falou sobre tags e personalizar o seu texto 
+i negrito
+u sublinhado 
+e tenque fechar a tag sempre que utilizar <tag> </tag>
+a / simboliza fechamento ou desligamento de tag
+oque estiver dentro da tag sera usado no comando aberto ate o desligamento após o desligamento o quer ir na frente da tag precisa de uma nova tag

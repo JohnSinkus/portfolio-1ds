@@ -1,0 +1,33 @@
+
+
+/** definindo seletores ****/
+
+
+
+body
+
+{
+ font-family: Adobe Fan Heiti Std B;
+ background-image: linear-gradient(
+rgb(133, 94, 224),
+rgb(46, 26, 37),
+rgb(57, 58, 58)
+
+
+ );
+
+
+}
+h1{
+ font-family: Adobe Fan Heiti Std B;
+ color: rgb(255, 145, 0);
+
+ 
+
+
+}
+Img{
+ border-radius: 120%;
+ width: 360px;
+height: 300px;
+}

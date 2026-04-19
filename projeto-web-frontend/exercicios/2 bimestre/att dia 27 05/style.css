@@ -1,0 +1,27 @@
+
+
+/** definindo seletores ****/
+
+
+
+body
+{
+ font-family: Adobe Fangsong Std R;
+ background-image: linear-gradient( 
+rgb(148, 206, 206),
+rgb(77, 77, 77),
+rgb(142, 255, 255)
+
+
+ );
+}
+
+h3{
+ font-family: Adobe Fangsong Std R;
+color: rgb(12, 8, 8);
+}
+Img{
+ border-radius: 120%;
+ width: 360px;
+height: 300px;
+}

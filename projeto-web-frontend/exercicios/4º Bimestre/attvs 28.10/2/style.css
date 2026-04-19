@@ -1,0 +1,23 @@
+
+
+/** definindo seletores ****/
+
+
+
+body
+{
+ font-family: Adobe Fangsong Std R;
+ background-image: url(car.jpg)    
+}
+
+
+h2{
+ font-family: Adobe Fangsong Std R;
+color:rgb(8, 146, 100);
+}
+
+h3:hover{
+
+rotate:135deg;
+transform:0.10;
+}
