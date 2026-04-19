@@ -2,4 +2,4 @@ use Restaurante7;
 
 
 
-select*	from Cardapio;
+select*	from Comanda;

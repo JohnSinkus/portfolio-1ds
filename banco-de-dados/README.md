@@ -1,17 +1,19 @@
-# Banco de Dados
+# Banco de Dados: Modelagem e Implementação de Sistemas de Informação
 
-Este diretório contém projetos e exercícios relacionados a Banco de Dados desenvolvidos durante o 1º DS, abrangendo modelagem de dados e scripts SQL.
+Este diretório consolida uma série de projetos e exercícios desenvolvidos no contexto do 1º Semestre de Desenvolvimento de Sistemas, com foco abrangente em **modelagem de dados** e **scripts SQL**. O objetivo é demonstrar a proficiência na concepção, estruturação e manipulação de sistemas de gerenciamento de banco de dados.
 
-## Estrutura dos Projetos
+## Estrutura e Componentes
 
-- **`modelagem/`**: Contém arquivos de modelagem de dados (diagramas ER, XML) para diversos cenários.
-- **`scripts-sql/`**: Contém scripts SQL para criação de tabelas, inserção de dados, consultas e outras operações em bancos de dados.
+O conteúdo está logicamente segmentado em duas categorias principais:
 
-## Tecnologias e Ferramentas Utilizadas
+*   **`modelagem/`**: Contém artefatos de modelagem de dados, incluindo diagramas Entidade-Relacionamento (ER) e arquivos XML, que representam a arquitetura conceitual e lógica de diversos bancos de dados.
+*   **`scripts-sql/`**: Abriga uma coleção de scripts SQL, abrangendo desde a definição de esquemas (DDL) até a manipulação (DML) e consulta (DQL) de dados, essenciais para a interação com sistemas de banco de dados relacionais.
 
-- Modelagem de Dados (BRModelo, XML)
-- SQL (DDL, DML, DQL)
+## Tecnologias e Ferramentas Empregadas
 
-## Como Utilizar
+*   **Modelagem de Dados**: Utilização de ferramentas como BRModelo para a criação de modelos conceituais e lógicos, e arquivos XML para representação estrutural.
+*   **SQL (Structured Query Language)**: Aplicação de comandos DDL, DML e DQL para a gestão completa de bancos de dados relacionais.
 
-Os arquivos de modelagem podem ser abertos em ferramentas de modelagem de dados compatíveis. Os scripts SQL podem ser executados em qualquer sistema de gerenciamento de banco de dados relacional (SGBD) como MySQL, PostgreSQL, SQL Server, etc.
+## Orientações para Utilização
+
+Os arquivos de modelagem (`.brM`, `.xml`) podem ser abertos e analisados em softwares de modelagem de dados compatíveis ou editores de texto. Os scripts SQL (`.sql`) são projetados para serem executados em qualquer Sistema Gerenciador de Banco de Dados (SGBD) relacional, como MySQL, PostgreSQL, SQL Server, entre outros, permitindo a recriação e manipulação dos bancos de dados propostos.

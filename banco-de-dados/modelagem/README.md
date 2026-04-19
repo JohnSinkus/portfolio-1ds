@@ -1,16 +1,18 @@
-# Modelagem de Dados
+# Modelagem de Dados: Concepção e Estruturação de Bancos de Dados
 
-Este diretório contém os arquivos de modelagem de dados desenvolvidos durante o curso, representando a estrutura de diversos bancos de dados através de diagramas e arquivos XML.
+Este diretório contém os artefatos de modelagem de dados desenvolvidos ao longo do curso, representando a arquitetura e a estrutura de diversos bancos de dados por meio de diagramas e arquivos XML.
 
-## Conteúdo
+## Conteúdo e Formatos
 
-Os arquivos `.brM` são modelos conceituais/lógicos criados em ferramentas de modelagem de dados (como o BRModelo), enquanto os arquivos `.xml` podem representar a estrutura do banco de dados ou a exportação de modelos.
+Os arquivos aqui presentes são categorizados da seguinte forma:
 
-## Exemplos de Modelos
+*   **Arquivos `.brM`**: Representam modelos conceituais e lógicos de bancos de dados, tipicamente criados em ferramentas de modelagem como o BRModelo. Estes arquivos detalham as entidades, atributos e relacionamentos, fornecendo uma visão abstrata e estruturada do sistema.
+*   **Arquivos `.xml`**: Podem corresponder à exportação de modelos de banco de dados ou à representação da estrutura de um esquema de banco de dados em formato XML, facilitando a interoperabilidade e a análise.
 
-- Modelos para sistemas de escolas, hotéis, e-commerce (NIKE), e outros cenários.
-- Diagramas Entidade-Relacionamento (DER) para diferentes domínios.
+## Exemplos de Modelos Abrangidos
 
-## Como Visualizar
+Incluem modelos para sistemas de gestão de escolas, hotéis, plataformas de e-commerce (como o projeto NIKE), e outros cenários de aplicação, demonstrando a versatilidade na modelagem de diferentes domínios de negócio.
 
-Os arquivos `.brM` podem ser abertos com o software BRModelo ou ferramentas similares. Os arquivos `.xml` podem ser visualizados em qualquer editor de texto ou navegador web.
+## Ferramentas de Visualização
+
+Para a visualização e análise dos arquivos `.brM`, é recomendada a utilização de softwares de modelagem de dados compatíveis, como o BRModelo. Os arquivos `.xml` podem ser inspecionados em qualquer editor de texto ou navegador web, que oferece uma representação hierárquica do conteúdo.

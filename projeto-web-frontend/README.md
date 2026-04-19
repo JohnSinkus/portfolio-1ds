@@ -1,16 +1,16 @@
-# Projeto Web Frontend
+# Desenvolvimento Web Frontend: Coleção de Exercícios e Projetos
 
-Este diretório contém uma coleção de exercícios e projetos desenvolvidos durante o 1º DS, focados em tecnologias de desenvolvimento web frontend, incluindo HTML, CSS e JavaScript.
+Este diretório compreende uma seleção de exercícios e projetos desenvolvidos no âmbito do 1º Semestre de Desenvolvimento de Sistemas, com foco primordial nas tecnologias fundamentais do desenvolvimento web frontend: HTML, CSS e JavaScript.
 
-## Estrutura dos Projetos
+## Estrutura e Organização dos Projetos
 
-Cada subdiretório representa um conjunto de atividades ou um bimestre específico, contendo os arquivos relevantes para cada projeto.
+Cada subdiretório é meticulosamente organizado para representar conjuntos de atividades ou bimestres específicos, contendo os artefatos digitais pertinentes a cada iniciativa:
 
-- **1º Bimestre**: Exercícios introdutórios de HTML e CSS.
-- **2º Bimestre**: Projetos focados em layouts e estilização avançada.
-- **3º Bimestre**: Introdução ao JavaScript e lógica de programação web.
-- **4º Bimestre**: Projetos mais complexos, incluindo formulários e interatividade.
+*   **1º Bimestre**: Fundamentos de HTML e CSS, abordando a estruturação de conteúdo e estilização básica.
+*   **2º Bimestre**: Projetos intermediários, com ênfase em layouts responsivos, estilização avançada e princípios de design de interface.
+*   **3º Bimestre**: Introdução à programação JavaScript, explorando a adição de interatividade e lógica dinâmica às páginas web.
+*   **4º Bimestre**: Projetos avançados, aplicando conhecimentos integrados de HTML, CSS e JavaScript em cenários práticos e complexos.
 
-## Como Visualizar
+## Metodologia de Visualização
 
-Para visualizar os projetos, navegue até o diretório desejado e abra os arquivos `.html` em seu navegador web. Alguns projetos podem depender de arquivos `.css` ou `.js` localizados no mesmo diretório ou em subdiretórios relacionados.
+Para a devida visualização dos projetos, recomenda-se navegar até o diretório do projeto de interesse e abrir os arquivos com extensão `.html` em um navegador web moderno. É importante notar que a funcionalidade completa de alguns projetos pode depender da correta vinculação e carregamento de arquivos `.css` e `.js` adjacentes.

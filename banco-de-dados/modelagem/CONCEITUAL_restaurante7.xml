@@ -2,7 +2,7 @@
 <MER>
 	<Informacoes>
 		<Posicao Left="0" Top="0"/>
-		<TotalItens Valor="18"/>
+		<TotalItens Valor="13"/>
 		<Tipo Valor="CONCEITUAL"/>
 		<Versao Valor="2.0.0"/>
 		<Autor Valor=""/>
@@ -27,14 +27,39 @@
     </Template>
 	</Informacoes>
 	<Entidades>
-    <Entidade nome="ROUPA" id="1">
-      <Left Valor="783"/>
-      <Top Valor="111"/>
+    <Entidade nome="comanda" id="1">
+      <Left Valor="690"/>
+      <Top Valor="213"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
       <Atributos/>
-      <AtributosOcultos/>
+      <AtributosOcultos>
+        <AtributoOculto Nome="CodComanda">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="forma_entrega">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Caracter"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="status">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+      </AtributosOcultos>
       <Dicionario></Dicionario>
       <Nula Valor="0"/>
       <Observacao></Observacao>
@@ -43,14 +68,55 @@
       <AutoRelacoes AutoRelacionado="0"/>
       <Especializacoes ehEsp="0"/>
     </Entidade>
-    <Entidade nome="CAIXA" id="2">
-      <Left Valor="535"/>
-      <Top Valor="373"/>
+    <Entidade nome="Cliente" id="2">
+      <Left Valor="631"/>
+      <Top Valor="491"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
       <Atributos/>
-      <AtributosOcultos/>
+      <AtributosOcultos>
+        <AtributoOculto Nome="CodCli">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="nome">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Caracter"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="endereço">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Caracter"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="referencia_ender">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Caracter"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="telefone">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+      </AtributosOcultos>
       <Dicionario></Dicionario>
       <Nula Valor="0"/>
       <Observacao></Observacao>
@@ -59,14 +125,63 @@
       <AutoRelacoes AutoRelacionado="0"/>
       <Especializacoes ehEsp="0"/>
     </Entidade>
-    <Entidade nome="LOJA" id="3">
-      <Left Valor="1071"/>
-      <Top Valor="370"/>
+    <Entidade nome="Cardapio" id="3">
+      <Left Valor="974"/>
+      <Top Valor="259"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
       <Atributos/>
-      <AtributosOcultos/>
+      <AtributosOcultos>
+        <AtributoOculto Nome="CodCardapio">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="nome_prato">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="preço">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="data_inclusão">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="data_exclusão">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+        <AtributoOculto Nome="data_alteção">
+          <LeftTop X="-1" Y="-1"/>
+          <MaxCard Valor="0"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Número(1)"/>
+        </AtributoOculto>
+      </AtributosOcultos>
       <Dicionario></Dicionario>
       <Nula Valor="0"/>
       <Observacao></Observacao>
@@ -77,9 +192,9 @@
     </Entidade>
   </Entidades>
 	<Relacoes>
-    <Relacao nome="ESTOQUE" id="7">
-      <Left Valor="534"/>
-      <Top Valor="215"/>
+    <Relacao nome="venda" id="4">
+      <Left Valor="466"/>
+      <Top Valor="328"/>
       <Width Valor="102"/>
       <Height Valor="51"/>
       <Fonte default="-1"/>
@@ -92,12 +207,12 @@
       <Anexos/>
       <SetaDirecao Valor="0"/>
       <Ligacoes>
-        <Ligacao Destino_ID="1">
-          <MostraCardinalidade Valor="-1" Card_id="8"/>
-          <Cardinalidades Cardinalidade="3">
-            <Cardinalidade nome="" id="8">
-              <Left Valor="817"/>
-              <Top Valor="178"/>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="5"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="5">
+              <Left Valor="593"/>
+              <Top Valor="509"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -112,7 +227,7 @@
               <TamAuto Valor="-1"/>
               <Tipo Valor="0"/>
               <TextAlin Valor="0"/>
-              <Card Valor="3"/>
+              <Card Valor="1"/>
               <Fixa Valor="0"/>
               <Ligacoes/>
             </Cardinalidade>
@@ -120,12 +235,12 @@
           <Orientacao Valor="0"/>
           <Fraca Valor="0"/>
         </Ligacao>
-        <Ligacao Destino_ID="2">
-          <MostraCardinalidade Valor="-1" Card_id="9"/>
+        <Ligacao Destino_ID="1">
+          <MostraCardinalidade Valor="-1" Card_id="6"/>
           <Cardinalidades Cardinalidade="3">
-            <Cardinalidade nome="" id="9">
-              <Left Valor="586"/>
-              <Top Valor="358"/>
+            <Cardinalidade nome="" id="6">
+              <Left Valor="724"/>
+              <Top Valor="280"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -150,9 +265,9 @@
         </Ligacao>
       </Ligacoes>
     </Relacao>
-    <Relacao nome="CLIENTE" id="10">
-      <Left Valor="1071"/>
-      <Top Valor="215"/>
+    <Relacao nome="Registro de venda" id="7">
+      <Left Valor="711"/>
+      <Top Valor="406"/>
       <Width Valor="102"/>
       <Height Valor="51"/>
       <Fonte default="-1"/>
@@ -166,11 +281,11 @@
       <SetaDirecao Valor="0"/>
       <Ligacoes>
         <Ligacao Destino_ID="1">
-          <MostraCardinalidade Valor="-1" Card_id="11"/>
-          <Cardinalidades Cardinalidade="3">
-            <Cardinalidade nome="" id="11">
-              <Left Valor="851"/>
-              <Top Valor="178"/>
+          <MostraCardinalidade Valor="-1" Card_id="8"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="8">
+              <Left Valor="758"/>
+              <Top Valor="280"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -185,7 +300,7 @@
               <TamAuto Valor="-1"/>
               <Tipo Valor="0"/>
               <TextAlin Valor="0"/>
-              <Card Valor="3"/>
+              <Card Valor="1"/>
               <Fixa Valor="0"/>
               <Ligacoes/>
             </Cardinalidade>
@@ -194,11 +309,11 @@
           <Fraca Valor="0"/>
         </Ligacao>
         <Ligacao Destino_ID="3">
-          <MostraCardinalidade Valor="-1" Card_id="12"/>
+          <MostraCardinalidade Valor="-1" Card_id="9"/>
           <Cardinalidades Cardinalidade="1">
-            <Cardinalidade nome="" id="12">
-              <Left Valor="1122"/>
-              <Top Valor="355"/>
+            <Cardinalidade nome="" id="9">
+              <Left Valor="1025"/>
+              <Top Valor="326"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -223,88 +338,16 @@
         </Ligacao>
       </Ligacoes>
     </Relacao>
-    <Relacao nome="VESTIMENTA" id="13">
-      <Left Valor="799"/>
-      <Top Valor="381"/>
-      <Width Valor="102"/>
-      <Height Valor="51"/>
-      <Fonte default="-1"/>
-      <Atributos/>
-      <AtributosOcultos/>
-      <Dicionario></Dicionario>
-      <Nula Valor="0"/>
-      <Observacao></Observacao>
-      <Futuro></Futuro>
-      <Anexos/>
-      <SetaDirecao Valor="0"/>
-      <Ligacoes>
-        <Ligacao Destino_ID="3">
-          <MostraCardinalidade Valor="-1" Card_id="14"/>
-          <Cardinalidades Cardinalidade="3">
-            <Cardinalidade nome="" id="14">
-              <Left Valor="1033"/>
-              <Top Valor="388"/>
-              <Width Valor="40"/>
-              <Height Valor="20"/>
-              <Fonte default="-1"/>
-              <Atributos/>
-              <AtributosOcultos/>
-              <Dicionario></Dicionario>
-              <Nula Valor="0"/>
-              <Observacao></Observacao>
-              <Futuro></Futuro>
-              <Anexos/>
-              <Cor Valor="15780518"/>
-              <TamAuto Valor="-1"/>
-              <Tipo Valor="0"/>
-              <TextAlin Valor="0"/>
-              <Card Valor="3"/>
-              <Fixa Valor="0"/>
-              <Ligacoes/>
-            </Cardinalidade>
-          </Cardinalidades>
-          <Orientacao Valor="0"/>
-          <Fraca Valor="0"/>
-        </Ligacao>
-        <Ligacao Destino_ID="2">
-          <MostraCardinalidade Valor="-1" Card_id="15"/>
-          <Cardinalidades Cardinalidade="3">
-            <Cardinalidade nome="" id="15">
-              <Left Valor="637"/>
-              <Top Valor="391"/>
-              <Width Valor="40"/>
-              <Height Valor="20"/>
-              <Fonte default="-1"/>
-              <Atributos/>
-              <AtributosOcultos/>
-              <Dicionario></Dicionario>
-              <Nula Valor="0"/>
-              <Observacao></Observacao>
-              <Futuro></Futuro>
-              <Anexos/>
-              <Cor Valor="15780518"/>
-              <TamAuto Valor="-1"/>
-              <Tipo Valor="0"/>
-              <TextAlin Valor="0"/>
-              <Card Valor="3"/>
-              <Fixa Valor="0"/>
-              <Ligacoes/>
-            </Cardinalidade>
-          </Cardinalidades>
-          <Orientacao Valor="0"/>
-          <Fraca Valor="0"/>
-        </Ligacao>
-      </Ligacoes>
-    </Relacao>
   </Relacoes>
 	<EntAssoss>
 	</EntAssoss>
 	<Texto>
-    <Texto nome="NIKE" id="4">
-      <Left Valor="818"/>
-      <Top Valor="65"/>
-      <Width Valor="647"/>
-      <Height Valor="20"/>
+    <Texto nome="Nome do sistema: Restaurante7
+Entidade Principal: Comanda" id="11">
+      <Left Valor="660"/>
+      <Top Valor="80"/>
+      <Width Valor="222"/>
+      <Height Valor="33"/>
       <Fonte default="-1"/>
       <Atributos/>
       <AtributosOcultos/>

@@ -1,19 +1,20 @@
-# Portfólio 1º DS
+# Portfólio de Projetos do 1º Semestre de Desenvolvimento de Sistemas
 
-Bem-vindo ao meu portfólio de projetos e exercícios desenvolvidos durante o 1º semestre do curso de Desenvolvimento de Sistemas (1º DS). Este repositório é uma demonstração das habilidades e conhecimentos adquiridos nas áreas de Desenvolvimento Web Frontend, Banco de Dados e Design Digital.
+Este repositório apresenta uma compilação de projetos e exercícios desenvolvidos durante o primeiro semestre do curso de Desenvolvimento de Sistemas (1º DS). O objetivo é demonstrar as competências técnicas e o progresso adquirido nas áreas fundamentais de **Desenvolvimento Web Frontend**, **Banco de Dados** e **Design Digital**.
 
 ## Estrutura do Portfólio
 
-O portfólio está organizado nas seguintes categorias principais:
+O conteúdo está metodicamente organizado em categorias distintas, cada uma com sua própria documentação detalhada:
 
-- **[Projeto Web Frontend](projeto-web-frontend/README.md)**: Contém exercícios e projetos desenvolvidos com HTML, CSS e JavaScript.
-- **[Banco de Dados](banco-de-dados/README.md)**: Inclui projetos de modelagem de dados e scripts SQL.
-- **[Design Digital](design-digital/README.md)**: Apresenta exercícios de Photoshop e materiais de estudo sobre design.
+*   **[Desenvolvimento Web Frontend](projeto-web-frontend/README.md)**: Contém uma série de exercícios e projetos práticos utilizando HTML, CSS e JavaScript, evidenciando a capacidade de construir interfaces de usuário dinâmicas e responsivas.
+*   **[Banco de Dados](banco-de-dados/README.md)**: Inclui projetos de modelagem de dados, diagramas Entidade-Relacionamento (ER) e scripts SQL para manipulação e consulta de dados, demonstrando proficiência em gestão de sistemas de informação.
+*   **[Design Digital](design-digital/README.md)**: Apresenta trabalhos desenvolvidos em Adobe Photoshop e materiais teóricos sobre princípios de design, composição e colorimetria, refletindo habilidades em criação visual e tratamento de imagens.
+*   **[Documentação Geral](documentacao-geral/README.md)**: Consolida materiais de apoio e documentos teóricos que fundamentam os projetos práticos apresentados.
 
-## Como Navegar
+## Navegação e Acesso
 
-Explore cada diretório para encontrar os projetos e suas respectivas documentações (arquivos `README.md`). Cada `README.md` fornece uma descrição detalhada do conteúdo, tecnologias utilizadas e instruções sobre como visualizar ou executar os projetos.
+Para explorar os projetos, recomenda-se navegar pelos diretórios correspondentes. Cada diretório principal contém um arquivo `README.md` que oferece uma visão geral, detalha as tecnologias empregadas e fornece instruções específicas para visualização ou execução dos projetos.
 
 ## Contato
 
-Para mais informações, sinta-se à vontade para entrar em contato.
+Para informações adicionais ou colaborações, por favor, entre em contato.

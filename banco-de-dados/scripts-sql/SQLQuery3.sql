@@ -1,14 +1,10 @@
-use Agencia_A_automotivoss;
+use Restaurante7;
 
+create table comanda ( 
 
-
-
-Create Table Moto (
-      Cor_moto  int Primary key,
-	  nome_moto  varchar   (25),
-	  Fabricante varchar      (25),
-	  Modelo     varchar     (20),
-	 Ano_fabricação varchar      (10),
-	 potencia       varchar    (10),
-	 cor            varchar     (10),
-	 valor  int  );
+                         codfun           int primary key,
+						 nome             varchar(30),
+						 cpf                   varchar(30),  
+						 valor_investido     int,
+						 data_do_gasto       varchar(20),
+);

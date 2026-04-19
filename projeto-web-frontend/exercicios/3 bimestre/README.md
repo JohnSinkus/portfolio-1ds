@@ -1,24 +1,23 @@
-# 3º Bimestre - Introdução ao JavaScript
+# 3º Bimestre: Introdução e Aplicação de JavaScript em Desenvolvimento Web
 
-Este diretório contém os exercícios e projetos desenvolvidos durante o terceiro bimestre, com foco na introdução à linguagem JavaScript para adicionar interatividade e lógica às páginas web.
+Este diretório compila os exercícios e projetos desenvolvidos durante o terceiro bimestre, com foco na introdução à linguagem JavaScript. O objetivo foi capacitar o desenvolvimento de funcionalidades interativas e lógicas dinâmicas para páginas web, elevando a experiência do usuário.
 
-## Conteúdo
+## Conteúdo Programático e Projetos
 
-- **`ano do sistema.html`**: Um projeto que provavelmente calcula ou exibe o ano atual do sistema usando JavaScript.
-- **`cosseno.html`**, **`Logaritmo.html`**, **`raiz quadrada.html`**, **`tangente.html`**: Exercícios de JavaScript focados em cálculos matemáticos e funções.
-- **`horario.html`**: Um projeto que exibe a hora atual ou lida com manipulação de tempo.
-- **`introdução_js.html`**, **`introdução_js2.html`**, **`javassss.html`**: Arquivos introdutórios e exemplos de código JavaScript.
-- **`PesoIdealMasculino.html`**, **`pesoidealmulher.html`**: Projetos que calculam o peso ideal com base em dados de entrada, utilizando JavaScript.
-- **`teste.html`**: Um arquivo de teste genérico para experimentação com JavaScript.
-- **`valoresnumericos.html`**: Projeto que lida com a entrada e manipulação de valores numéricos.
-- **`style.css`**: Arquivo de estilo CSS, provavelmente utilizado por um ou mais projetos HTML.
+Os recursos aqui presentes abrangem uma variedade de aplicações JavaScript:
 
-## Tecnologias Utilizadas
+*   **Manipulação de Tempo e Sistema**: Projetos como `ano do sistema.html` e `horario.html` demonstram a capacidade de interagir com o tempo e informações do sistema operacional via JavaScript.
+*   **Cálculos Matemáticos e Funções**: Arquivos como `cosseno.html`, `Logaritmo.html`, `raiz quadrada.html` e `tangente.html` ilustram a implementação de funções matemáticas complexas e a manipulação de valores numéricos (`valoresnumericos.html`).
+*   **Introdução e Exemplos de Código**: `introdução_js.html`, `introdução_js2.html` e `javassss.html` servem como materiais didáticos e exemplos práticos para o aprendizado da sintaxe e conceitos fundamentais do JavaScript.
+*   **Aplicações Práticas de Lógica**: Projetos como `PesoIdealMasculino.html` e `pesoidealmulher.html` aplicam a lógica JavaScript para realizar cálculos baseados em entrada do usuário, como o cálculo do peso ideal.
+*   **Estilização Associada**: O arquivo `style.css` complementa os projetos HTML, garantindo a apresentação visual adequada.
 
-- HTML5
-- CSS3
-- JavaScript
+## Tecnologias Dominadas
 
-## Como Visualizar
+*   **HTML5**: Para a estruturação de conteúdo.
+*   **CSS3**: Para a estilização visual.
+*   **JavaScript**: Para a implementação de lógica e interatividade.
 
-Para visualizar os projetos, abra os arquivos `.html` em seu navegador web. A interatividade será demonstrada diretamente na página através da execução do JavaScript.
+## Instruções de Visualização
+
+Para visualizar e interagir com os projetos, basta abrir os arquivos com extensão `.html` em um navegador web. A execução do JavaScript ocorrerá diretamente na página, demonstrando as funcionalidades interativas implementadas.

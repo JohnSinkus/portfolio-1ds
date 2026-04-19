@@ -1,21 +1,23 @@
-# 1º Bimestre - Fundamentos de Web Frontend
+# 1º Bimestre: Fundamentos Essenciais de Desenvolvimento Web Frontend
 
-Este diretório contém os exercícios e atividades desenvolvidas durante o primeiro bimestre do curso de Desenvolvimento de Sistemas, com foco nos fundamentos de HTML e CSS.
+Este diretório compila os exercícios e atividades fundamentais desenvolvidos durante o primeiro bimestre do curso de Desenvolvimento de Sistemas. O foco principal reside na aquisição e aplicação dos conceitos basilares de HTML e CSS, pilares para a construção de interfaces web.
 
-## Conteúdo
+## Conteúdo Programático e Projetos
 
-- **`atividade 4.html`**: Uma atividade prática explorando conceitos básicos de HTML.
-- **`att avaliativa/`**: Pasta contendo arquivos relacionados a uma atividade avaliativa.
-- **`aula 2/`**: Materiais e exemplos da segunda aula.
-- **`aula 25.03/`**: Materiais e exemplos da aula do dia 25 de março.
-- **`codigo_Exemplo.HTML`**: Um exemplo de código HTML para referência.
-- **`exemplo 18.03 .html`**: Um exemplo prático demonstrado na aula do dia 18 de março.
+Os recursos aqui presentes abrangem:
 
-## Tecnologias Utilizadas
+*   **`atividade 4.html`**: Uma atividade prática concebida para solidificar a compreensão dos elementos estruturais do HTML.
+*   **`att avaliativa/`**: Subdiretório contendo os artefatos de uma avaliação prática, demonstrando a aplicação dos conhecimentos adquiridos.
+*   **`aula 2/`**: Materiais didáticos e exemplos práticos explorados durante a segunda sessão de aula.
+*   **`aula 25.03/`**: Recursos e demonstrações pertinentes à aula ministrada em 25 de março.
+*   **`codigo_Exemplo.HTML`**: Um exemplar de código HTML, servindo como referência para boas práticas de estruturação.
+*   **`exemplo 18.03 .html`**: Um caso de estudo prático, apresentado e discutido na aula de 18 de março.
 
-- HTML5
-- CSS3
+## Tecnologias Dominadas
 
-## Como Visualizar
+*   **HTML5**: Para a estruturação semântica do conteúdo web.
+*   **CSS3**: Para a estilização e apresentação visual das páginas.
 
-Para visualizar qualquer um dos arquivos HTML, basta abri-los em seu navegador web preferido.
+## Instruções de Visualização
+
+Para interagir com os projetos, basta abrir qualquer arquivo com extensão `.html` em seu navegador web de preferência. A renderização será imediata, permitindo a inspeção do código-fonte e do resultado visual.
